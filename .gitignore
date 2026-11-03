@@ -31,5 +31,17 @@ bin/
 .env.*
 !.env.example
 
+### Build and test output ###
+node_modules/
+dist/
+playwright-report/
+test-results/
+coverage/
+*.class
+
+### IDE project files ###
+.idea/
+*.iml
+
 ### Mac OS ###
 .DS_Store
